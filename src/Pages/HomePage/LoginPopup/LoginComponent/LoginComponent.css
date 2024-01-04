@@ -1,0 +1,86 @@
+
+#LoginComponentMainDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 300px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#TitleLabel{
+    position: relative;
+    font-size: 30px;
+    top: 30px;
+    color: black;
+}
+
+#UsernameDiv{
+    position: relative;
+    top: calc(50px);
+    margin-top: 30px;
+}
+
+#UsernameIcon{
+    margin-right: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+
+
+#LockIcon{
+    margin-right: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+#ButtonLogin{
+    position: relative;
+    top: calc(30px);
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 0px;
+    background: black;
+    color: black;
+}
+
+#LoginKeyIcon{
+    font-size: 30px;
+    color: white;
+}
+
+#InvalidDetailsDiv{
+    position: absolute;
+    top: 40px;
+    color: black;
+    width: 100%;
+}
+
+#CreateNewAccountDiv{
+    width: 100%;
+    position: absolute;
+    top: 320px;
+    text-align: center;
+}
+
+#CreateNewAccountButton{
+    text-decoration: underline;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    cursor: pointer;
+}
+
+#LoginForm{
+}

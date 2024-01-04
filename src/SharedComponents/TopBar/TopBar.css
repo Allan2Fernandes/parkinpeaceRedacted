@@ -1,0 +1,50 @@
+.TopBarMainDiv {
+    position: relative;
+    width: 100%;
+    background-color: #343a40;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#LoginButton{
+    margin-right: 20px; /* Add margin from the right side */
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#DropDownMenu {
+    position: absolute;
+    top: 55px;
+    right: 5px;
+    width: 100px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+#DropDownMenu div{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#DropDownMenu div:hover{
+    background-color: #ED6B2D;
+    color: white;
+    cursor: pointer;
+}
+
+#AdvertiseButtonDiv{
+    margin-right: 20px;
+}
+
+#NavigateToHomePage{
+    margin-right: 15px;
+}

@@ -1,0 +1,18 @@
+
+#UserIconMainDiv{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-right: 20px; /* Add margin from the right side */
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#UserIcon{
+    color: black;
+}
+

@@ -1,0 +1,22 @@
+
+
+#TestImage{
+    position: absolute;
+}
+
+#Container{
+    height: 100%;
+    width: 100%;
+}
+
+#CarouselContainer{
+    position: relative;
+    height: 50vh; /* Adjust the height as needed, using viewport height units */
+    overflow: hidden; /* Hide any content that overflows the div */
+}
+
+#CarouselContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio, covering the entire container */
+}

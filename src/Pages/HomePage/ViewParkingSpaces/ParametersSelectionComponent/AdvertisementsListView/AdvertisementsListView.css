@@ -1,0 +1,12 @@
+
+#AdvertisementsListViewMainDiv{
+    height: 100%;
+    width: calc(100% - 300px);
+    scroll-behavior: auto;
+    display: flex;        /* Use flexbox layout */
+    flex-wrap: wrap;      /* Allow wrapping to the next row */
+    align-items: center;
+    align-content: start;
+    background-color: #F7F7F7;
+    overflow-y: scroll;
+}

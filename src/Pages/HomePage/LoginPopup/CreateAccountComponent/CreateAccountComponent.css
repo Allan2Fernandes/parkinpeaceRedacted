@@ -1,0 +1,111 @@
+
+
+#CreateAccountMainDiv{
+    position: relative;
+    height: 500px;
+    width: 300px;
+    background: white;
+    left: calc(50% - 150px);
+    top: max(0px, calc(50% - 250px - 25px));
+    border-radius: 25px;
+}
+
+#CreateAccountTitleLabel{
+    position: relative;
+    font-size: 30px;
+    top:20px;
+    color: black;
+}
+
+#CreateNameDiv{
+    position: relative;
+    top: calc(20px);
+    margin-top: 30px;
+}
+/*
+.CreateInput{
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+    color: black;
+    padding-bottom: 5px;
+}
+
+.CreateInput:focus{
+    outline: none;
+}
+
+.CreateInput::placeholder{
+    color: black;
+}
+*/
+#CreatePhoneNumberDiv{
+    position: relative;
+    top: calc(20px);
+    margin-top: 30px;
+}
+
+#CreateAddressDiv{
+    position: relative;
+    top: calc(20px);
+    margin-top: 30px;
+}
+
+#CreateEmailDiv{
+    position: relative;
+    top: calc(20px);
+    margin-top: 30px;
+}
+
+.CreateIcon{
+    margin-right: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+#CreatePasswordDiv{
+    position: relative;
+    top: calc(20px);
+    margin-top: 40px;
+}
+
+
+
+#RepeatPasswordDiv{
+    position: relative;
+    top: calc(20px);
+    margin-top: 40px;
+}
+
+
+
+#CreateAccountButtonDiv{
+    position: relative;
+    top: calc(10px);
+    margin-top: 40px;
+}
+
+.CreateAccountButton{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.CreateAccountButton:disabled{
+    background-color: gray;
+}
+
+#ErrorMessageDiv{
+    position: relative;
+    top: calc(-10px);
+    margin-top: 30px;
+}
+
+#ErrorMessageLabel{
+    color: red;
+}

@@ -1,0 +1,10 @@
+
+#AdvertisementsMapViewMainDiv{
+    height: calc(100%);
+    width: calc(100% - 300px);
+    z-index: 0;
+}
+
+.MarkerPopUpImage{
+    max-height: 50px;
+}

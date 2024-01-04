@@ -1,0 +1,23 @@
+#AdvertisementDetailsComponentMainDiv{
+  width: 100%;
+  flex-grow: 1;
+}
+
+#DetailsMapComponent{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#AdvertisementDetailsFormDiv{
+  height: 100%;
+  width: 400px;
+}
+
+#MapComponentDiv{
+  height: 100%;
+  width: calc(100%-400px);
+  flex-grow: 1;
+  background-color: antiquewhite;
+}

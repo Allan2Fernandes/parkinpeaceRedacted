@@ -1,0 +1,40 @@
+
+#SingleAdvertisementComponentMainDiv{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#SingleAdvertisementComponentMainDiv .image-container {
+    background-size: cover; /* Center-crop the image */
+    background-position: center; /* Center the image horizontally and vertically */
+    height: 80%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#AdvertisementDetails{
+    position: relative;
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#AddressLabel {
+    width: 100%;
+    overflow: hidden;  /* Hide excess text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    color: grey;
+  }
+  
+#PriceLabelContainer{
+    margin-top: 5px;
+}
+
+#PriceLabel{
+    font-weight: bold;
+}

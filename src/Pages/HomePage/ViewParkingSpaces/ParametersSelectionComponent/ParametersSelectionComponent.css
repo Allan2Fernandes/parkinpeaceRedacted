@@ -1,0 +1,42 @@
+
+#ParametersSelectionMainDiv{
+    position: relative;
+    height: calc(100%);
+    width: 300px;
+    border-right: 1px solid black;
+}
+
+#DisplayButtonsDiv{
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#DisplayButtonsDiv button{
+    width: 48%;
+    border: none;
+    height: 50px;
+    font-size: 30px;
+}
+
+.SelectedDisplayMethod{
+    background-color: grey;
+}
+
+.NotSelectedDisplayMethod{
+    background-color: #E8E8E8;
+}
+
+#StartDatePicker, #EndDatePicker{
+    width: 140px;
+}
+
+input{
+}
+
+h4{
+    margin-left: 15px;
+}

@@ -1,0 +1,11 @@
+
+#ParkingSpacesMainDiv{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: calc(100% - 3rem);
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+} 
